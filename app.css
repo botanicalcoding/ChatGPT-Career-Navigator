@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: sans-serif;
     overflow-x: hidden;
-    background-color: (241, 245, 242)
+    /* background-color: rgba(10, 150, 108, 0.8); */
 }
 
 .hero {
@@ -70,15 +70,12 @@ body {
 }
 
 .card {
-    size-adjust: ;
-
-    /* Positioning and sizing
-    display: flex; */
 
     /* Padding and margins */
     padding: 2em;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0 !important;
 
     /* Border styles */
     border: 3px solid rgb(0, 0, 0);
@@ -96,25 +93,91 @@ body {
 .card-title {
     /* Text styles */
     font-size: 2em;
-    text-align: right;
     text-transform: capitalize;
-    text-underline-position: under;
     color: white;
 }
 
 .card-body {
     /* Padding and margins */
-    padding: 1em;
     margin-left: auto;
     margin-right: auto;
 
     /* Text styles */
     font-size: 1.7em;
-    text-align: right;
     color: white;
 }
 
-.card .img {
+.card-img {
+
+    /* Padding and margins */
+    padding: 2em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Sizing */
+    min-width: 350px;
+    max-width: 500px;
+
+}
+
+.container-fluid {
+    /* Text styles */
+    font-size: 100px;
+    text-transform: capitalize;
+    color: white;
+
+    /* Padding and margins */
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Background styles */
+    background-color: black
+}
+
+.how {
+    /* Sizing */
+    width: 100vw;
+    height: 25vh;
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Background styles */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.pexels.com/photos/8386422/pexels-photo-8386422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.how h1 {
+    /* Text styles */
+    font-size: 5rem;
+    text-transform: capitalize;
+    color: white;
+
+    /* Padding and margins */
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+
     /* Flexbox stuff */
     display: flex;
     justify-content: center;
