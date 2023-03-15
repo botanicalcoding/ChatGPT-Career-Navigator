@@ -9,156 +9,217 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 
 <body>
-    <header>
+    <!-- hero image -->
+    <div class="hero">
+        <div class="hero-inner">
+            <h1>Chat GBT</h1>
+            <h2>Your Career Advancement Assistant</h2>
+            <a href="https://chat.openai.com" class="btn">Try it Now!</a>
+        </div>
+    </div>
+    <!-- hero image -->
 
-        <!-- hero image -->
-        <section class="hero">
-            <div class="hero-inner">
-                <h1>Chat GBT</h1>
-                <h2>Your Career Advancement Assistant</h2>
-                <a href="https://chat.openai.com" class="btn">Try it Now!</a>
+    <!-- card horizontal -->
+    <div class="card mb-3 rounded-0" style="max-width: auto;">
+        <div class="row no-gutters">
+            <div class="col-xs-6 col-lg-4 card-img-center">
+                <img src="https://cdn-icons-png.flaticon.com/512/2814/2814666.png" class="card-img"
+                    alt="Cute Robot with a smile">
+            </div>
+            <div class="col-xs-6 col-lg-8">
+                <div class="row no-gutters">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase text-center text-lg-end">What is ChatGBT?</h5>
+                        <p class="card-text text-center text-lg-end"> ChatGPT is a large language model created
+                            by
+                            OpenAI,
+                            designed
+                            to
+                            communicate with users in
+                            natural language. It is capable of processing and generating text, allowing users to ask
+                            questions, receive answers, and engage in conversation on a variety of topics. ChatGPT
+                            is
+                            continuously learning and improving through its training on massive amounts of text
+                            data, making
+                            it a powerful tool for natural language processing and understanding.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- card horizontal -->
+
+    <div>
+        <section class="how">
+            <div class="how-inner text-center">
+                <h2>How Can CHATGBT Help Me?</h2>
             </div>
         </section>
-        <!-- hero image -->
+    </div>
 
-        <!-- card horizontal -->
-        <div class="card mb-3 rounded-0" style="max-width: auto;">
-            <div class="row no-gutters">
-                <div class="col-xs-6 col-lg-4 card-img-center">
-                    <img src="https://cdn-icons-png.flaticon.com/512/2814/2814666.png" class="card-img"
-                        alt="Cute Robot with a smile">
+    <section class="container">
+        <!-- <p class="text-lg text-center margin-bottom">How Can CHATGBT Help Me?<br> Accordion</p> -->
+
+        <ul class="faq-accordion text-md">
+            <li>
+                <input class="faq-input" type="radio" name="faq" id="faq-1" />
+                <label class="faq-label" for="faq-1">Review Your Resume<i class="fa fa-add"></i> </label>
+                <div class="faq-content">
+                    <p>
+                        Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies,
+                        anime, documentaries, and more on thousands of internet-connected devices. <br />
+                        <br />
+                        Ask ChatGBT: Review this resume: (Insert Resume) and then compare it to this job description:
+                        (Insert job description) and provide suggested edits to make them align
+                    </p>
                 </div>
-                <div class="col-xs-6 col-lg-8">
-                    <div class="row no-gutters">
-                        <div class="card-body">
-                            <h5 class="card-title text-uppercase text-center text-lg-end">What is ChatGBT?</h5>
-                            <p class="card-text text-center text-lg-end"> ChatGPT is a large language model created
-                                by
-                                OpenAI,
-                                designed
-                                to
-                                communicate with users in
-                                natural language. It is capable of processing and generating text, allowing users to ask
-                                questions, receive answers, and engage in conversation on a variety of topics. ChatGPT
-                                is
-                                continuously learning and improving through its training on massive amounts of text
-                                data, making
-                                it a powerful tool for natural language processing and understanding.</p>
+            </li>
 
-                        </div>
+            <li>
+                <input class="faq-input" type="radio" name="faq" id="faq-2" />
+                <label class="faq-label" for="faq-2">Provide Resume Edit Suggestions <i class="fa fa-add"></i></label>
+                <div class="faq-content">
+                    <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one
+                        fixed monthly fee. Plans range from IDR54,000 to IDR186,000 a month. No extra costs, no
+                        contracts.</p>
+                </div>
+            </li>
+
+            <li>
+                <input class="faq-input" type="radio" name="faq" id="faq-3" />
+                <label class="faq-label" for="faq-3">Write Resume Bullets <i class="fa fa-add"></i></label>
+                <div class="faq-content">
+                    <p>
+                        Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at
+                        netflix.com from your personal computer or on any internet-connected device that offers the
+                        Netflix app, including smart TVs,
+                        smartphones, tablets, streaming media players and game consoles. <br />
+                        <br />
+                        You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use
+                        downloads to watch while you're on the go and without an internet connection. Take Netflix
+                        with you anywhere.
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <input class="faq-input" type="radio" name="faq" id="faq-4" />
+                <label class="faq-label" for="faq-4">Scrape Information <i class="fa fa-add"></i></label>
+                <div class="faq-content">
+                    <p>Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel
+                        your account online in two clicks. There are no cancellation fees – start or stop your
+                        account anytime.</p>
+                </div>
+            </li>
+
+            <li>
+                <input class="faq-input" type="radio" name="faq" id="faq-5" />
+                <label class="faq-label" for="faq-5">Obtain Must use Keywords<i class="fa fa-add"></i></label>
+                <div class="faq-content">
+                    <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime,
+                        award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+                </div>
+            </li>
+
+            <li>
+                <input class="faq-input" type="radio" name="faq" id="faq-6" />
+                <label class="faq-label" for="faq-6">Provide Possible Interview Questions<i
+                        class="fa fa-add"></i></label>
+                <div class="faq-content">
+                    <p>
+                        The Netflix Kids experience is included in your membership to give parents control while
+                        kids enjoy family-friendly TV shows and movies in their own space. <br />
+                        <br />
+                        Kids profiles come with PIN-protected parental controls that let you restrict the maturity
+                        rating of content kids can watch and block specific titles you don’t want kids to see.
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- card horizontal -->
+    <div class="card mb-3 rounded-0" style="max-width: aut;">
+        <div class="row no-gutters">
+            <div class="col-xs-6 col-lg-4 card-img-center">
+                <img src="https://cdn-icons-png.flaticon.com/512/9626/9626716.png" class="card-img"
+                    alt="Cute Robot with a smile">
+            </div>
+            <div class="col-xs-6 col-lg-8">
+                <div class="row no-gutters">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase text-center text-lg-end">The 80/20 Rule</h5>
+                        <p class="card-text text-center text-lg-end"> ChatGBT is not a replacement of you.
+
+                            Instead let it do 80% of the baseline work for you.
+
+                            That way you save 100% of your energy for the most important parts: Editiing,
+                            personalizing, and authenticating the information it givies you!.</p>
+
+
                     </div>
                 </div>
             </div>
         </div>
-        <!-- card horizontal -->
+    </div>
+    <!-- card horizontal -->
 
-        <div>
-            <section class="how">
-                <div class="how-inner text-center">
-                    <h2>How Can CHATGBT Help Me?</h2>
+    <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-xs-6 col-md-9">
+                    <h6>About</h6>
+                    <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative
+                        to help
+                        the upcoming programmers with the code. Scanfcode focuses on providing the most
+                        efficient
+                        code or snippets as the code wants to be simple. We will help programmers build up
+                        concepts
+                        in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap,
+                        JavaScript, PHP, Android, SQL and Algorithm.</p>
                 </div>
-        </div>
 
-        <!-- information section  -->
-
-        <div>
-            <div class="scroll-container">
-                <div class="scroll-area">1</div>
-                <div class="scroll-area">2</div>
-                <div class="scroll-area">3</div>
-                <div class="scroll-area">4</div>
+                <div class="col-xs-6 col-md-2">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="https://chat.openai.com/chat">ChatGBT</a></li>
+                        <li><a href="https://github.com/gabriellecodes/ChatGPT-Your-Personal-Career-Advisor">Github
+                                Repository</a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/gabrielle-nelis/">Linkedin</a></li>
+                    </ul>
+                </div>
             </div>
+            <hr>
         </div>
-
-        <!-- information section  -->
-
-        <!-- card horizontal -->
-        <div class="card mb-3 rounded-0" style="max-width: auto;">
-            <div class="row no-gutters">
-                <div class="col-xs-6 col-lg-4 card-img-center">
-                    <img src="https://cdn-icons-png.flaticon.com/512/9626/9626716.png" class="card-img"
-                        alt="Cute Robot with a smile">
-                </div>
-                <div class="col-xs-6 col-lg-8">
-                    <div class="row no-gutters">
-                        <div class="card-body">
-                            <h5 class="card-title text-uppercase text-center text-lg-end">The 80/20 Rule</h5>
-                            <p class="card-text text-center text-lg-end"> ChatGBT is not a replacement of you.
-
-                                Instead let it do 80% of the baseline work for you.
-
-                                That way you save 100% of your energy for the most important parts: Editiing,
-                                personalizing, and authenticating the information it givies you!.</p>
-
-
-                        </div>
-                    </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by
+                        <a href="#">Gabrielle Nelis</a>.
+                    </p>
                 </div>
             </div>
         </div>
-        <!-- card horizontal -->
+    </footer>
+    <!-- Site footer -->
 
-        <!-- Site footer -->
-        <footer class="site-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-6">
-                        <h6>About</h6>
-                        <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to help
-                            the upcoming programmers with the code. Scanfcode focuses on providing the most efficient
-                            code or snippets as the code wants to be simple. We will help programmers build up concepts
-                            in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap,
-                            JavaScript, PHP, Android, SQL and Algorithm.</p>
-                    </div>
-
-                    <div class="col-xs-6 col-md-3">
-                        <h6>Categories</h6>
-                        <ul class="footer-links">
-                            <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
-                            <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
-                            <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
-                            <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
-                            <li><a href="http://scanfcode.com/category/android/">Android</a></li>
-                            <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-xs-6 col-md-3">
-                        <h6>Quick Links</h6>
-                        <ul class="footer-links">
-                            <li><a href="https://chat.openai.com/chat">ChatGBT</a></li>
-                            <li><a href="https://github.com/gabriellecodes/ChatGPT-Your-Personal-Career-Advisor">Github
-                                    Repository</a>
-                            </li>
-                            <li><a href="http://scanfcode.com/contribute-at-scanfcode/">About the Developer</a></li>
-                            <li><a href="http://scanfcode.com/privacy-policy/">Contact the Developer</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <hr>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-sm-6 col-xs-12">
-                        <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by
-                            <a href="#">Gabrielle Nelis</a>.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Site footer -->
-
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-            </script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
 
 </body>
 
