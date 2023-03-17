@@ -20,8 +20,3 @@ Image Attributes
 <a href="https://www.flaticon.com/free-icons/robot" title="robot icons">Robot icons created by Freepik - Flaticon</a>
 
 <a href="https://www.flaticon.com/free-icons/technology" title="technology icons">Technology icons created by Freepik - Flaticon</a>
-
-
-License
-
-This project is licensed under the [insert license name here] license. See the LICENSE file for more information.
