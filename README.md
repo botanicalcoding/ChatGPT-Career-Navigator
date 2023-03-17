@@ -18,6 +18,6 @@ This project was created by Gabrielle Nelis.
 
 <a href="https://www.flaticon.com/free-icons/technology" title="technology icons">Technology icons created by Freepik - Flaticon</a>
 
-## <u>**Disclaimer*</u>
+## <u>**Disclaimer**</u>
 
 This project was built around CHAT GBT-3. The information in the project has not be tested with CHAT GBT-4. 
