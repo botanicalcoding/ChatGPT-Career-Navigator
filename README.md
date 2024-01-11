@@ -6,7 +6,7 @@ This project is a responsive website that aims to educate individuals on the eff
 
 ## <u>**Installation and Usage**</u>
 
-To use this website, simply navigate to the live site at [insert link here]. There is no installation required.
+To use this website, simply <a href= "https://botanicalcoding.github.io/ChatGPT-Career-Navigator/" title="live site">Click Here</a> to navigate to the live site. There is no installation required.
 
 ## <u>**Credits**</u>
 
