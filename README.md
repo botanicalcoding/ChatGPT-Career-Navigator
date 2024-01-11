@@ -1,4 +1,4 @@
-# ChatGPT-Your-Personal-Career-Advisor
+# ChatGPT-Career-Navigator
 
 ## <u>**Description**</u>
 
